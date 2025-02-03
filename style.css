@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA; /* Light Violet */
+    color: #4B0082; /* Indigo */
+    margin: 0;
+    padding: 0;
+}
+
+.weather-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #87CEEB; /* Sky Blue */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #4B0082; /* Indigo */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4B0082; /* Indigo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6A5ACD; /* Slate Blue */
+}
+
+#weather-result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-image: url('weather-background.jpg'); /* Add your image path */
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFFFFF; /* White */
+}
